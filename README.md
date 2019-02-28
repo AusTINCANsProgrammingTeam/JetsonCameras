@@ -2,12 +2,17 @@ HEY ReAD THIS
 First of all, to install this you need to go into the mjpg-streamer-experimental folder. Then, run these commands if necessary.
 
 sudo apt-get install cmake libjpeg8-dev
+
 sudo apt-get install gcc g++
+
 make
+
 sudo make install
 
 Then, add the start.py to some sort of auto start script so it starts on boot up.
+
 MAKE SURE THE ROBOT THINGY THAT USES THE VISION CODE IS NOT READING FROM THE CAMERA
+
 mjpg-streamer
 =============
 
