@@ -9,6 +9,8 @@ make
 
 sudo make install
 
+Copy/Paste single run command: `sudo apt-get install cmake libjpeg8-dev -y && sudo apt-get install gcc g++ -y && make && sudo make install`
+
 Then, add the start.py to some sort of auto start script so it starts on boot up.
 
 MAKE SURE THE ROBOT THINGY THAT USES THE VISION CODE IS NOT READING FROM THE CAMERA
