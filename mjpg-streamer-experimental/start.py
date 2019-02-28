@@ -19,3 +19,5 @@ p2 = multiprocessing.Process(target=launchcam,args=(1,25566,))
 p2.start()
 time.sleep(2)
 p1.join()
+
+#os.popen('mjpg_streamer -o "output_http.so -w ./www -p '+str(25567)+'" -i "input_opencv.so --d '+str(cameras[2])+'"')
