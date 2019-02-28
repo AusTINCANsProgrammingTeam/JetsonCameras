@@ -5,14 +5,22 @@ Then, add the start.py to some sort of auto start script so it starts on boot up
 MAKE SURE THE ROBOT THINGY THAT USES THE VISION CODE IS NOT READING FROM THE CAMERA
 
 3 Options for vision access:
+
 3 streams 2 cameras (1 uncompressed)
+
     UNCOMMENT LINE AT THE BOTTOM OF START.PY
     ACCESS PORT 25567
+    
 2 streams 3 cameras (1 vision-only)
-    KEEP CODE AS IS
-2 streams 2 cameras (both compressed)
+
     KEEP CODE AS IS
     
+2 streams 2 cameras (both compressed)
+
+    KEEP CODE AS IS
+
+Use /etc/rc.local for autostart
+
 mjpg-streamer
 =============
 
