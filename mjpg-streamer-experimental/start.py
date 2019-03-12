@@ -29,10 +29,10 @@ def front_camera():
                 os.popen('mjpg_streamer -o "output_http.so -w ./www -p '+str(25567)+'" -i "input_opencv.so --d '+str(camera)+'"') 
 '''
 	
-p1 = multiprocessing.Process(target=launchcam,args=(0,25565,))
+p1 = multiprocessing.Process(target=launchcam,args=(0,80,))
 p1.start()
 time.sleep(2)
-p2 = multiprocessing.Process(target=launchcam,args=(1,25566,))
+p2 = multiprocessing.Process(target=launchcam,args=(1,441,))
 p2.start()
 time.sleep(2)
 p1.join()
