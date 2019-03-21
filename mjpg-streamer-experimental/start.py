@@ -8,7 +8,7 @@ pattern = re.compile("MODEL_ID")
 
 cameras = []
 
-visionCamID = "IDHERE"
+visionCamID = "0779
 cameraNum = None
 cameraMap = open("/home/nvidia/cameraMap.txt", "r")
 for cameraStr in cameraMap:
